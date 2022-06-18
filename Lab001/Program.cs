@@ -6,7 +6,12 @@ namespace Lab001
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            SayHello("reco");
+        }
+
+        public static void SayHello(string name)
+        {
+            Console.WriteLine($"Hello, {name}");
         }
     }
 }
