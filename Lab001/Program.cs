@@ -19,5 +19,10 @@ namespace Lab001
         {
             Console.WriteLine($"Hello, {name}");
         }
+
+        public static void SayJPHello(string name)
+        {
+            Console.WriteLine($"こんにちは, {name}");
+        }
     }
 }
