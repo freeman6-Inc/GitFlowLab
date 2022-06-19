@@ -13,5 +13,6 @@ namespace Lab001
         public int Multiply(int x, int y) => x * y;
         public int Divide(int x, int y) => x / y;
         public float Divide(float x, float y) => x / y;
+        public float Multiply(float x, float y) => x * y;
     }
 }
